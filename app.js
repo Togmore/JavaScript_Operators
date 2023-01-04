@@ -8,10 +8,10 @@ console.log("EXERCISE 1:\n==========\n");
 
 let a = 20;
 let b = 4;
-let add = a + b; //24//
-let minus = a - b; //16
-let multiply = a * b; //80
-let dividing = a / b; //5
+let add = a + b; // console.log(add) yields the result 24//
+let minus = a - b; //console.log(minus) yields the result 16
+let multiply = a * b; // console.log(multiply) yields the result 80
+let dividing = a / b; // console.log(dividing) yields the result 5
 
 
 
@@ -28,6 +28,13 @@ let str2 = "eleven";
 let isPresent = true;
 let firstName = "Frodo";
 let lastName = "Baggins";
+
+console.log(num + str);
+console.log(num + str2);
+console.log(num + isPresent);
+console.log(firstName + num);
+console.log(isPresent + str);
+console.log(firstName + lastName);
 
 // What is the value of: num + str? 
 // Answer: '1111'
@@ -58,6 +65,19 @@ let val = 5;
 let str3 = "5";
 let str4 = "five";
 let isPresent2 = false;
+
+console.log(val == str3);
+console.log(val === str3);
+console.log(!isPresent2);
+console.log("eleven" == str4 && val >= str3);
+console.log(!isPresent2 || isPresent2);
+console.log(0 == false);
+console.log(0 === false);
+console.log(0 != false);
+console.log(0 !== false);
+console.log("Extra: " , Nan === false);
+
+
 
 
 // What is the value of: val == str3?
